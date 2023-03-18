@@ -28,11 +28,11 @@ public class TicketManager {
     }
 
     public boolean matches(Ticket ticket, String from, String to) {
-            if (ticket.getFrom().equals(from)) {
-                if (ticket.getTo().equals(to)) {
-                    return true;
-                }
+        if (ticket.getFrom().equals(from)) {
+            if (ticket.getTo().equals(to)) {
+                return true;
             }
+        }
         return false;
     }
 }
